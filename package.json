@@ -4,10 +4,8 @@
 
   "workspaces":[
     "backend/database",
-    
-    
+    "backend/http",
     "backend/video-transcode-worker"
-    
   ],
 
   
