@@ -1,0 +1,21 @@
+{
+  "name":"mycore",
+  "private":true,
+
+  "workspaces":[
+    "backend/database",
+    
+    
+    "backend/video-transcode-worker"
+    
+  ],
+
+  
+  
+  "scripts": {
+    "backend": "bun --cwd backend src/index.ts",
+    "frontend":"bun --cwd frontend run dev",
+    "websocket": "bun --cwd websocket index.ts",
+    "worker": "bun --cwd worker index.ts"
+  }
+}
